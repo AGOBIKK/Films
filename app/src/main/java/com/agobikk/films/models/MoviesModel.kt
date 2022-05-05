@@ -7,7 +7,7 @@ package com.agobikk.films.models
 //Приходит целая страница и в себе содержит лист фильмов List<MovieItemModel> в адаптер мы должны положить не лист а фильмы
 data class MoviesModel(
     val page: Int, // номер нашей странички
-    val movieItemModels: List<MovieItemModel>, // листом лежит сам один фильм
+    val results: List<MovieItemModel>, // листом лежит сам один фильм
     val total_pages: Int,
     val total_results: Int
 )
