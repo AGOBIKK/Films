@@ -2,8 +2,9 @@ package com.agobikk.films.models
 
 /***
  * Один фильм содержит в себе данные:
+ * переименовали переменную с Result на  MovieItemModel
  */
-data class Result( // Result  потому что приходит result
+data class MovieItemModel( // Result  потому что приходит result
     val adult: Boolean,
     val backdrop_path: String,
     val genre_ids: List<Int>,
