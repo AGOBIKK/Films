@@ -1,4 +1,4 @@
-package com.agobikk.films.screens.main
+package com.agobikk.films.screens.favorite
 
 import androidx.lifecycle.ViewModel
 
